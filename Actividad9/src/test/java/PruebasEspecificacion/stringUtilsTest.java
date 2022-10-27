@@ -48,6 +48,8 @@ public class stringUtilsTest {
                 .isEqualTo(new String[] {"b"});
         assertThat(substringsBetween("abcabc", "a", "c")) // T15
                 .isEqualTo(new String[] {"b", "b"});
+        assertThat(substringsBetween("abcabyt byrc", "a", "c"))
+                .isEqualTo(new String[ ] {"b", "byt byr"});
     }
     @Test
     void openAndCloseTagsOfDifferentSizes() {
@@ -61,10 +63,12 @@ public class stringUtilsTest {
                 .isEqualTo(new String[] {"bb"});
         assertThat(substringsBetween("aabbccaaeecc", "aa", "cc")) // T20
                 .isEqualTo(new String[] {"bb", "ee"});
+        assertThat(substringsBetween("a abb ddc ca abbcc", "a a", "c c"))
+                .isEqualTo(new String[ ] {"bb dd"});
     }
     @Test
     void notSubstringBetweenOpenAndCloseTags() {
         assertThat(substringsBetween("aabb", "aa", "bb")) // T21
-                .isEqualTo(new String[] { ""});
+                .isEqualTo(new String[] {""});
     }
 }
