@@ -39,8 +39,53 @@ Se observa el resultado final en la segunda imagen.\n
 
 • Pregunta 2
 
+1. Ejecuta el programa y presenta los resultados y explica qué sucede.
+Toda la ejecución del programa se realiza en el método main de la clase Airport (paquete Anterior). Primero, en las líneas 6 a 10, se instancia 2 variables de tipo Flight, correspondientes a vuelo económico y vuelo de negocios, y 2 variables de tipo Passenger, de los cuales uno es VIP y el otro no.\
+![image](https://user-images.githubusercontent.com/57854488/201123315-cef79a5e-9bb2-4695-bcc0-853c93431314.png)\
+Luego, de las líneas 12 a 15, se realizan llamados a los métodos de Flight (añadir y remover pasajeros). Según los diagramas de decisión, se esperan los siguientes resultados:
+  * Línea 12: Se añade a 'cesar' a la lista de pasajeros de 'businessFlight', dado que es cliente VIP.
+  * Línea 13: No se remueve a 'cesar' de la lista de pasajeros de 'businessFlight', dado que es cliente VIP.
+  * Línea 14: No se añade a 'jessica' a la lista de pasajeros de 'businessFlight', ya que no es cliente VIP.
+  * Línea 15: Se añade a 'jessica' a la lista de pasajeros de 'economyFlight, ya que no existen restricciones para este vuelo.\
+![image](https://user-images.githubusercontent.com/57854488/201124218-277269ed-8bf3-4701-b562-96def64cfe5a.png)\
+Asimismo, las líneas 17 a 24 se utilizan para imprimir los resultados en la consola de cada pasajero perteneciente a la lista de pasajeros de cada vuelo.\
+![image](https://user-images.githubusercontent.com/57854488/201124485-c8791110-ca0d-4940-99d7-4a9083c06b5c.png)\
+Por último, se muestra el resultado en la última imagen.\
+![image](https://user-images.githubusercontent.com/57854488/201124593-ef4f5fa0-ab19-4aa7-97c7-e441b331ea24.png)
+
+2. Si ejecutamos las pruebas con cobertura desde IntelliJ IDEA, ¿cuales son los resultados que se muestran?, ¿por qué crees que la cobertura del código no es del 100%?
+Luego de ejecutar la clase de pruebas AirportTest con cobertura, se muestra que el resultado no es del 100% y, además, se observa que las 2 pruebas correspondientes al vuelo de negocios han fallado. Si observamos, el resultado mostrado por la consola, observamos que el resultado arrojado corresponde a la excepción lanzada por la clase Flight cuando se añade un vuelo de tipo desconocido. Por lo tanto, revisando los tipos disponibles, se reafirma que la cadena correspondiente a los vuelos de negocio es 'Negocios' y no 'Business', tal como se declaró en la línea 58 de la clase de prueba anidada.\
+![image](https://user-images.githubusercontent.com/57854488/201126974-309dd5bb-1ce1-4370-a094-59cc9260cfc4.png)
+
+3. ¿Por qué John tiene la necesidad de refactorizar la aplicación?
+
+Como se mostró en la subpregunta anterior, es necesario que los nombres del tipo de vuelos de negocio coincidan, por lo que se requiere cambiar uno de los 2. Se opta por modificar la cadena en la línea 58 de la clase de pruebas. Se vuelve a ejecutar la clase de pruebas con cobertura y se muestra el nuevo resultado que corresponde al 100% de cobertura.\
+![image](https://user-images.githubusercontent.com/57854488/201131365-fa28cc14-555a-422b-b8de-939ab322a7ca.png)
+
+4. Revisa la Fase 2 de la evaluación y realiza la ejecución del programa y analiza los resultados.
+En primer lugar, se reestructura la clase Flight al convertirla en abstracta y crear otras 2 clases que se extienden de dicha clase y corresponden a los vuelos económicos y de negocios.\
+Una de las diferencias fundamentales en la clase de prueba respecto a la fase anterior es la inclusión de las nuevas clases EconomyFlight y BusinessFlight que se extienden de la clase abstrata Flight. Por ejemplo, en la imagen adjunta, se inicializa para ambos métodos de prueba una instancia de Flight en la línea 18. Además, se modifica el método setUp para que la variable instanciada se le asigne una nueva instancia de EconomyFlight en la línea 21. Esto se realiza análogamente para la segunda clase de prueba anidada correspondiente a los vuelos de negocio.\
+![image](https://user-images.githubusercontent.com/57854488/201133683-616b6ffc-2b13-4d8c-b214-4250ea74df67.png)\
+Se ejecuta con cobertura la clase de pruebas y se observa que todas las pruebas han pasado y el resultado es del 100% de cobertura.\
+![image](https://user-images.githubusercontent.com/57854488/201134692-ebd9cbeb-646f-47fb-90be-4f91b77597a0.png)
+
+5. 
+
+
+
+
+
+
 
 
 
 
 • Pregunta 3
+
+
+
+
+
+
+
+
