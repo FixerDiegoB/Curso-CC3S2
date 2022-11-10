@@ -62,4 +62,30 @@ Luego de ejecutar la clase de pruebas AirportTest con cobertura, se muestra que 
 Como se mostró en la subpregunta anterior, es necesario que los nombres del tipo de vuelos de negocio coincidan, por lo que se requiere cambiar uno de los 2. Se opta por modificar la cadena en la línea 58 de la clase de pruebas. Se vuelve a ejecutar la clase de pruebas con cobertura y se muestra el nuevo resultado que corresponde al 100% de cobertura.\
 ![image](https://user-images.githubusercontent.com/57854488/201131365-fa28cc14-555a-422b-b8de-939ab322a7ca.png)
 
+4. Revisa la Fase 2 de la evaluación y realiza la ejecución del programa y analiza los resultados.
+
+Una de las diferencias fundamentales en la clase de prueba respecto a la fase anterior es la inclusión de las nuevas clases EconomyFlight y BusinessFlight que se extienden de la clase abstrata Flight. Por ejemplo, en la imagen adjunta, se inicializa para ambos métodos de prueba una instancia de Flight en la línea 18. Además, se modifica el método setUp para que la variable instanciada se le asigne una nueva instancia de EconomyFlight en la línea 21. Esto se realiza análogamente para la segunda clase de prueba anidada correspondiente a los vuelos de negocio.\
+![image](https://user-images.githubusercontent.com/57854488/201133683-616b6ffc-2b13-4d8c-b214-4250ea74df67.png)\
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 • Pregunta 3
+
+
+
+
+
+
+
+
