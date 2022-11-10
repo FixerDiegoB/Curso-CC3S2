@@ -1,9 +1,13 @@
+package Pregunta2.Fase2.Pruebas;
+
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import Pregunta2.Fase2.Produccion.*;
 
 public class AirportTest {
 

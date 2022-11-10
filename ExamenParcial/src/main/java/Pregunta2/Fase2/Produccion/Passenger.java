@@ -1,3 +1,5 @@
+package Pregunta2.Fase2.Produccion;
+
 public class Passenger {
 
     private String name;

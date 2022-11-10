@@ -1,9 +1,13 @@
+package Pregunta2.Fase1.Pruebas;
+
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import Pregunta2.Fase1.Produccion.*;
 
 public class AirportTest {
 
@@ -52,7 +56,7 @@ public class AirportTest {
 
         @BeforeEach
         void setUp() {
-            businessFlight = new Flight("2", "Business");
+            businessFlight = new Flight("2", "Negocios");
         }
 
         @Test
