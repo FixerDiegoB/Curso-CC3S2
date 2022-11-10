@@ -15,7 +15,7 @@ public class stringUtilsTest {
     void openIsNullOrEmpty() {
         assertThat(substringsBetween("abc", null, "b")) // T3
                 .isEqualTo(null);
-        assertThat(substringsBetween("abc", "a", "")) // T4
+        assertThat(substringsBetween("abc", "", "b")) // T4
                 .isEqualTo(null);
     }
     @Test
