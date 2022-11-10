@@ -53,6 +53,13 @@ Asimismo, las líneas 17 a 24 se utilizan para imprimir los resultados en la con
 Por último, se muestra el resultado en la última imagen.\
 ![image](https://user-images.githubusercontent.com/57854488/201124593-ef4f5fa0-ab19-4aa7-97c7-e441b331ea24.png)
 
-2. 
+2. Si ejecutamos las pruebas con cobertura desde IntelliJ IDEA, ¿cuales son los resultados que se muestran?, ¿por qué crees que la cobertura del código no es del 100%?
+Luego de ejecutar la clase de pruebas AirportTest con cobertura, se muestra que el resultado no es del 100% y, además, se observa que las 2 pruebas correspondientes al vuelo de negocios han fallado. Si observamos, el resultado mostrado por la consola, observamos que el resultado arrojado corresponde a la excepción lanzada por la clase Flight cuando se añade un vuelo de tipo desconocido. Por lo tanto, revisando los tipos disponibles, se reafirma que la cadena correspondiente a los vuelos de negocio es 'Negocios' y no 'Business', tal como se declaró en la línea 58 de la clase de prueba anidada.\
+![image](https://user-images.githubusercontent.com/57854488/201126974-309dd5bb-1ce1-4370-a094-59cc9260cfc4.png)
+
+3. ¿Por qué John tiene la necesidad de refactorizar la aplicación?
+
+Como se mostró en la subpregunta anterior, es necesario que los nombres del tipo de vuelos de negocio coincidan, por lo que se requiere cambiar uno de los 2. Se opta por modificar la cadena en la línea 58 de la clase de pruebas. Se vuelve a ejecutar la clase de pruebas con cobertura y se muestra el nuevo resultado que corresponde al 100% de cobertura.\
+![image](https://user-images.githubusercontent.com/57854488/201131365-fa28cc14-555a-422b-b8de-939ab322a7ca.png)
 
 • Pregunta 3
