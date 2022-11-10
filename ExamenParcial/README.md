@@ -15,6 +15,7 @@ El código no genera resultado, puesto que exite un error. Como se muestra en la
 3. ¿Qué lambda puede reemplazar la clase Secret1 para devolver el mismo valor?
 
 
+
 4. Completa sin causar un error de compilación
 
 Se añadió una iteración para mostrar el resultado final de chars, dado que el código original (líneas 6 a 9) no mostraban ningún error en la compilación. Asimismo, se incluyó un caso de prueba en el método main para verificar que se haya realizado la impresión. En la primera imagen, se muestran las modificaciones realizadas.\
@@ -31,8 +32,10 @@ Dado que en la iteración, 'i' se evalúan 3 valores (0, 1 y 2), para los valore
 
 6. Inserta código sin causar un error de compilación
 
-
-
+Análogamente al inciso 4, el programa original no muestra ningún error en la compilación. Sin embargo, dado que se pide la inserción de código entre las líneas 7 y 11, se incluye una impresión de la lista de caracteres original (previo al borrado de elementos). Asimismo, la impresión del resultado final se añade al método main, tal como se muestra en la imagen adjunta. \n
+![image](https://user-images.githubusercontent.com/57854488/201116314-f9adc169-26e0-447c-b0c4-3cc213248610.png)\n
+Se observa el resultado final en la segunda imagen.\n
+![image](https://user-images.githubusercontent.com/57854488/201116347-0f93953c-3f43-4f42-9d2a-beda0b410cc8.png)
 
 • Pregunta 2
 
