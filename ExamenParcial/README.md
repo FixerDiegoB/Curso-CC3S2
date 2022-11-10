@@ -18,14 +18,14 @@ El código no genera resultado, puesto que exite un error. Como se muestra en la
 4. Completa sin causar un error de compilación
 
 Se añadió una iteración para mostrar el resultado final de chars, dado que el código original (líneas 6 a 9) no mostraban ningún error en la compilación. Asimismo, se incluyó un caso de prueba en el método main para verificar que se haya realizado la impresión. En la primera imagen, se muestran las modificaciones realizadas.\
-![image](https://user-images.githubusercontent.com/57854488/201112608-a1436a55-ccf2-48db-8c0c-d22fa12c3c45.png)
+![image](https://user-images.githubusercontent.com/57854488/201112608-a1436a55-ccf2-48db-8c0c-d22fa12c3c45.png)\
 Mientras que en esta segunda imagen, se muestra la salida esperada en la consola.\
 ![image](https://user-images.githubusercontent.com/57854488/201113052-a0d7dd35-f8f2-4541-8eba-9e1b392cd314.png)
 
 5. ¿Qué puedes decir del siguiente código?
 
 Las líneas 10 y 11 (A y B) se ejecutan cuando la variable iterada 'i' es par, mientras que las líneas 14 y 15 (C y D), cuando 'i' es impar.\
-![image](https://user-images.githubusercontent.com/57854488/201114409-264c39e4-fcd8-4c16-b06f-f50f3eea6162.png)
+![image](https://user-images.githubusercontent.com/57854488/201114409-264c39e4-fcd8-4c16-b06f-f50f3eea6162.png)\
 Dado que en la iteración, 'i' se evalúan 3 valores (0, 1 y 2), para los valores pares (0 y 2), la instancia 'supplier' se le asigna una expresión lambda que retorna 'length' (que equivale a 3) y se retorna este valor. Por otro lado, para el valor impar (1), la instancia recibe el valor de 'i' a través de 'j' y retorna dicho valor en la salida a la consola. Por lo tanto, se genera la salida mostrada en la imagen.\
 ![image](https://user-images.githubusercontent.com/57854488/201114441-0a70ccb1-4875-4bd0-94a1-d8e83f1a72fd.png)
 
