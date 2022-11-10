@@ -63,13 +63,13 @@ Como se mostró en la subpregunta anterior, es necesario que los nombres del tip
 ![image](https://user-images.githubusercontent.com/57854488/201131365-fa28cc14-555a-422b-b8de-939ab322a7ca.png)
 
 4. Revisa la Fase 2 de la evaluación y realiza la ejecución del programa y analiza los resultados.
-
+En primer lugar, se reestructura la clase Flight al convertirla en abstracta y crear otras 2 clases que se extienden de dicha clase y corresponden a los vuelos económicos y de negocios.\
 Una de las diferencias fundamentales en la clase de prueba respecto a la fase anterior es la inclusión de las nuevas clases EconomyFlight y BusinessFlight que se extienden de la clase abstrata Flight. Por ejemplo, en la imagen adjunta, se inicializa para ambos métodos de prueba una instancia de Flight en la línea 18. Además, se modifica el método setUp para que la variable instanciada se le asigne una nueva instancia de EconomyFlight en la línea 21. Esto se realiza análogamente para la segunda clase de prueba anidada correspondiente a los vuelos de negocio.\
 ![image](https://user-images.githubusercontent.com/57854488/201133683-616b6ffc-2b13-4d8c-b214-4250ea74df67.png)\
+Se ejecuta con cobertura la clase de pruebas y se observa que todas las pruebas han pasado y el resultado es del 100% de cobertura.\
+![image](https://user-images.githubusercontent.com/57854488/201134692-ebd9cbeb-646f-47fb-90be-4f91b77597a0.png)
 
-
-
-
+5. 
 
 
 
