@@ -13,8 +13,9 @@ El código no genera resultado, puesto que exite un error. Como se muestra en la
 ![image](https://user-images.githubusercontent.com/57854488/201116527-232050d9-1948-409a-970a-111986511b72.png)
 
 3. ¿Qué lambda puede reemplazar la clase Secret1 para devolver el mismo valor?
-
-
+Se implementa un main para probar la función lambda creada y se comprueba que tenga el mismo resultado.\
+![image](https://user-images.githubusercontent.com/57854488/201560902-4ff1fc02-e966-49f4-b73b-7284be9a21e4.png)\
+![image](https://user-images.githubusercontent.com/57854488/201561147-1cbf1cfe-bcdc-4d34-ab08-12de6b41d2bc.png)
 
 4. Completa sin causar un error de compilación
 
@@ -33,7 +34,7 @@ Dado que en la iteración, 'i' se evalúan 3 valores (0, 1 y 2), para los valore
 6. Inserta código sin causar un error de compilación
 
 Análogamente al inciso 4, el programa original no muestra ningún error en la compilación. Sin embargo, dado que se pide la inserción de código entre las líneas 7 y 11, se incluye una impresión de la lista de caracteres original (previo al borrado de elementos). Asimismo, la impresión del resultado final se añade al método main, tal como se muestra en la imagen adjunta. \
-![image](https://user-images.githubusercontent.com/57854488/201116314-f9adc169-26e0-447c-b0c4-3cc213248610.png)\n
+![image](https://user-images.githubusercontent.com/57854488/201116314-f9adc169-26e0-447c-b0c4-3cc213248610.png)\
 Se observa el resultado final en la segunda imagen.\
 ![image](https://user-images.githubusercontent.com/57854488/201116347-0f93953c-3f43-4f42-9d2a-beda0b410cc8.png)
 
@@ -77,7 +78,9 @@ Dado que gran parte de la refactorización se aplicó en la fase 2, esta fase pr
 La refactorización permitió que el código se adapte mejor a los cambios nuevos, pues la reestructuración de los tipos de vuelo en subclases de un clase padre Vuelo permite mejor manejo de los métodos; así como también una mayor limpieza y organización del código. Por ejemplo, dentro de la clase BusinessFlight, se observa que los métodos sobreescriben al de la clase Flight y la lógica se encuentra implementada sin necesidad de condicionales.\
 ![image](https://user-images.githubusercontent.com/57854488/201558508-bed4e893-7457-4589-8ad2-320178be163c.png)\
 De manera análoga, se implementa en la clase EconomyFlight.\
-![image](https://user-images.githubusercontent.com/57854488/201558713-ed316bf6-6594-4107-a9c3-6157ac3a7390.png)\
+![image](https://user-images.githubusercontent.com/57854488/201558713-ed316bf6-6594-4107-a9c3-6157ac3a7390.png)
+
+6. ¿En qué consiste está regla relacionada a la refactorización?. Evita utilizar y copiar respuestas de internet. Explica como se relaciona al problema dado en la evaluación.
 
 
 
@@ -89,9 +92,7 @@ De manera análoga, se implementa en la clase EconomyFlight.\
 
 
 
-
-
-• Pregunta 3
+- Pregunta 3
 
 
 
