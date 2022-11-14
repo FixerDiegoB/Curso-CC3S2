@@ -45,10 +45,10 @@ Se observa el resultado final en la segunda imagen.\
 Toda la ejecución del programa se realiza en el método main de la clase Airport (paquete Anterior). Primero, en las líneas 6 a 10, se instancia 2 variables de tipo Flight, correspondientes a vuelo económico y vuelo de negocios, y 2 variables de tipo Passenger, de los cuales uno es VIP y el otro no.\
 ![image](https://user-images.githubusercontent.com/57854488/201123315-cef79a5e-9bb2-4695-bcc0-853c93431314.png)\
 Luego, de las líneas 12 a 15, se realizan llamados a los métodos de Flight (añadir y remover pasajeros). Según los diagramas de decisión, se esperan los siguientes resultados:
-  * Línea 12: Se añade a 'cesar' a la lista de pasajeros de 'businessFlight', dado que es cliente VIP.
-  * Línea 13: No se remueve a 'cesar' de la lista de pasajeros de 'businessFlight', dado que es cliente VIP.
-  * Línea 14: No se añade a 'jessica' a la lista de pasajeros de 'businessFlight', ya que no es cliente VIP.
-  * Línea 15: Se añade a 'jessica' a la lista de pasajeros de 'economyFlight, ya que no existen restricciones para este vuelo.\
+    * Línea 12: Se añade a 'cesar' a la lista de pasajeros de 'businessFlight', dado que es cliente VIP.
+    * Línea 13: No se remueve a 'cesar' de la lista de pasajeros de 'businessFlight', dado que es cliente VIP.
+    * Línea 14: No se añade a 'jessica' a la lista de pasajeros de 'businessFlight', ya que no es cliente VIP.
+    * Línea 15: Se añade a 'jessica' a la lista de pasajeros de 'economyFlight, ya que no existen restricciones para este vuelo.\
 ![image](https://user-images.githubusercontent.com/57854488/201124218-277269ed-8bf3-4701-b562-96def64cfe5a.png)\
 Asimismo, las líneas 17 a 24 se utilizan para imprimir los resultados en la consola de cada pasajero perteneciente a la lista de pasajeros de cada vuelo.\
 ![image](https://user-images.githubusercontent.com/57854488/201124485-c8791110-ca0d-4940-99d7-4a9083c06b5c.png)\
@@ -97,6 +97,7 @@ Consite en el planteamiento dee pruebas, de acuerdo con la funcionalidad que se 
 
 
 
+10. Ayuda a John a crear una nueva prueba para verificar que un pasajero solo se puede agregar una vez a un vuelo de manera que John ha implementado esta nueva característica en estilo TDD.
 
 
 
