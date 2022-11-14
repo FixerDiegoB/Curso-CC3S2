@@ -83,7 +83,17 @@ De manera análoga, se implementa en la clase EconomyFlight.\
 
 6. ¿En qué consiste está regla relacionada a la refactorización?. Evita utilizar y copiar respuestas de internet. Explica como se relaciona al problema dado en la evaluación.
 
+Consite en el planteamiento dee pruebas, de acuerdo con la funcionalidad que se necesite añadir, previo a la generación del código. Mientras se tenga errores en el código, se procede a corregirlos. Luego, cuando la prueba pase sin errores es cuando se aplica la refactorización asegurando que el código siga con un correcto funcionamiento.
 
+7. Escribe el diseño inicial de la clase llamada PremiumFlight y agrega a la Fase 4 en la carpeta producción.
+
+
+
+8. Ayuda a John e implementa las pruebas de acuerdo con la lógica comercial de vuelos premium de las figuras anteriores. Adjunta tu código en la parte que se indica en el código de la Fase 4. Después de escribir las pruebas, John las ejecuta.
+
+
+
+9. Agrega la lógica comercial solo para pasajeros VIP en la clase PremiumFlight. Guarda ese archivo en la carpeta Producción de la Fase 5.
 
 
 
