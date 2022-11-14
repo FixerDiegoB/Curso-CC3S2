@@ -87,22 +87,28 @@ Consite en el planteamiento dee pruebas, de acuerdo con la funcionalidad que se 
 
 7. Escribe el diseño inicial de la clase llamada PremiumFlight y agrega a la Fase 4 en la carpeta producción.
 
-
+Se implementa el diseño inicial de PremiumFlight en la que solo se sobreescriben los métodos y se retorna falso.\
+![image](https://user-images.githubusercontent.com/57854488/201567695-766ecee2-31a5-4103-880d-1336eadb145a.png)
 
 8. Ayuda a John e implementa las pruebas de acuerdo con la lógica comercial de vuelos premium de las figuras anteriores. Adjunta tu código en la parte que se indica en el código de la Fase 4. Después de escribir las pruebas, John las ejecuta.
 
-
+Se agregan las pruebas correspondientes, similar a las otras 2 clases de prueba. Se presentan métodos de prueba que corresponden a los 2 tipos de pasajero.\
+![image](https://user-images.githubusercontent.com/57854488/201569749-682d2548-2ef0-458e-a630-c342a47e4ddf.png)\
+![image](https://user-images.githubusercontent.com/57854488/201571503-a22f2b59-62ed-49e3-b23a-d66639a7a1e3.png)
 
 9. Agrega la lógica comercial solo para pasajeros VIP en la clase PremiumFlight. Guarda ese archivo en la carpeta Producción de la Fase 5.
 
-
+La nueva clase de PremiumFlight se implementa siguiendo la lógica de los diagramas.\
+![image](https://user-images.githubusercontent.com/57854488/201569552-0837c7aa-08a2-4ef2-9813-a0243d7c14a4.png)\
+Por último, se ejecuta el código con cobertura y se obittene el resultado esperado.\
+![image](https://user-images.githubusercontent.com/57854488/201571710-092f0031-b98f-4b9b-975c-d4cee4720d2d.png)
 
 10. Ayuda a John a crear una nueva prueba para verificar que un pasajero solo se puede agregar una vez a un vuelo de manera que John ha implementado esta nueva característica en estilo TDD.
 
-
-
-
-
+Se implementa una nueva prueba para los vuelos premium similar a como está implementado para los otros tipos de vuelo, de tal forma que haciendo uso de Set se verifique que solo se incluya un pasajero una vez.\
+![image](https://user-images.githubusercontent.com/57854488/201572234-43566a1f-b0b7-4d1e-a2d8-c1f269023193.png)
+Las pruebas pasan exitosamente con el 100% de cobertura.\
+![image](https://user-images.githubusercontent.com/57854488/201572355-2d84adb8-3ac4-4592-ae08-e0af361118a8.png)
 
 - Pregunta 3
 
