@@ -32,9 +32,9 @@ Dado que en la iteración, 'i' se evalúan 3 valores (0, 1 y 2), para los valore
 
 6. Inserta código sin causar un error de compilación
 
-Análogamente al inciso 4, el programa original no muestra ningún error en la compilación. Sin embargo, dado que se pide la inserción de código entre las líneas 7 y 11, se incluye una impresión de la lista de caracteres original (previo al borrado de elementos). Asimismo, la impresión del resultado final se añade al método main, tal como se muestra en la imagen adjunta. \n
+Análogamente al inciso 4, el programa original no muestra ningún error en la compilación. Sin embargo, dado que se pide la inserción de código entre las líneas 7 y 11, se incluye una impresión de la lista de caracteres original (previo al borrado de elementos). Asimismo, la impresión del resultado final se añade al método main, tal como se muestra en la imagen adjunta. \
 ![image](https://user-images.githubusercontent.com/57854488/201116314-f9adc169-26e0-447c-b0c4-3cc213248610.png)\n
-Se observa el resultado final en la segunda imagen.\n
+Se observa el resultado final en la segunda imagen.\
 ![image](https://user-images.githubusercontent.com/57854488/201116347-0f93953c-3f43-4f42-9d2a-beda0b410cc8.png)
 
 • Pregunta 2
@@ -69,7 +69,18 @@ Una de las diferencias fundamentales en la clase de prueba respecto a la fase an
 Se ejecuta con cobertura la clase de pruebas y se observa que todas las pruebas han pasado y el resultado es del 100% de cobertura.\
 ![image](https://user-images.githubusercontent.com/57854488/201134692-ebd9cbeb-646f-47fb-90be-4f91b77597a0.png)
 
-5. 
+5. La refactorización y los cambios de la API se propagan a las pruebas. Reescribe elarchivo Airport Test de la carpeta Fase 3. Y responde las siguientes preguntas:
+● ¿Cuál es la cobertura del código ?
+Dado que gran parte de la refactorización se aplicó en la fase 2, esta fase presenta ligeras modificaciones de nombres. La ejecución se realizó exitosamente y la cobetura del código fue del 100%.
+![image](https://user-images.githubusercontent.com/57854488/201557574-667ae96b-55a9-4e1e-ac1c-96feadcc4df6.png)\
+● ¿La refactorización de la aplicación TDD ayudó tanto a mejorar la calidad del código?
+La refactorización permitió que el código se adapte mejor a los cambios nuevos, pues la reestructuración de los tipos de vuelo en subclases de un clase padre Vuelo permite mejor manejo de los métodos; así como también una mayor limpieza y organización del código. Por ejemplo, dentro de la clase BusinessFlight, se observa que los métodos sobreescriben al de la clase Flight y la lógica se encuentra implementada sin necesidad de condicionales.\
+![image](https://user-images.githubusercontent.com/57854488/201558508-bed4e893-7457-4589-8ad2-320178be163c.png)\
+De manera análoga, se implementa en la clase EconomyFlight.\
+![image](https://user-images.githubusercontent.com/57854488/201558713-ed316bf6-6594-4107-a9c3-6157ac3a7390.png)\
+
+
+
 
 
 
