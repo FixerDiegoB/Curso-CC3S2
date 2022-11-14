@@ -13,6 +13,7 @@ El código no genera resultado, puesto que exite un error. Como se muestra en la
 ![image](https://user-images.githubusercontent.com/57854488/201116527-232050d9-1948-409a-970a-111986511b72.png)
 
 3. ¿Qué lambda puede reemplazar la clase Secret1 para devolver el mismo valor?
+
 Se implementa un main para probar la función lambda creada y se comprueba que tenga el mismo resultado.\
 ![image](https://user-images.githubusercontent.com/57854488/201560902-4ff1fc02-e966-49f4-b73b-7284be9a21e4.png)\
 ![image](https://user-images.githubusercontent.com/57854488/201561147-1cbf1cfe-bcdc-4d34-ab08-12de6b41d2bc.png)
