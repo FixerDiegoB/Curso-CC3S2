@@ -2,6 +2,8 @@
 
 - Pregunta 1
 
+El CRM no tiene soporte para campañas de correo electrónico. Por lo tanto, se debe implementar un sistema para campañas de correo electrónico. Se sugiere que se creen dos servicios, uno para la creación y ejecución de campañas y un segundo servicio para evaluar los resultados de una campaña.
+
 1. ¿Se necesita la infraestructura SOA para integrar los dos nuevos servicios?
 
 
@@ -12,7 +14,7 @@
 
 3. ¿Cuál de estas opciones de integración suele ofrecer SOA?
 
-
+Por lo general, el SOA suele utilizar las llamadas de servicio para integrar sistemas y acceder a datos, pues se basa en la creación de servicios que se comunican entre sí a través de interfaces estandarizadas. Esto permite que los sistemas sean más flexibles y escalables, ya que pueden comunicarse a través de interfaces estandarizadas sin depender unos de otros.
 
 4. ¿Debe el servicio integrarse al portal existente o tener su propia interfaz de usuario?
 
