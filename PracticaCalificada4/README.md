@@ -1,33 +1,5 @@
 # Práctica Calificada 4
 
-- Pregunta 1
-
-El CRM no tiene soporte para campañas de correo electrónico. Por lo tanto, se debe implementar un sistema para campañas de correo electrónico. Se sugiere que se creen dos servicios, uno para la creación y ejecución de campañas y un segundo servicio para evaluar los resultados de una campaña.
-
-1. ¿Se necesita la infraestructura SOA para integrar los dos nuevos servicios?
-
-
-
-2. El servicio de evaluación de campañas necesita manejar una gran cantidad de datos ¿Sería mejor utilizar la replicación de datos, la integración a nivel de interfaz de usuario o las llamadas de servicio para acceder a grandes cantidades de datos?
-
-
-
-3. ¿Cuál de estas opciones de integración suele ofrecer SOA?
-
-Por lo general, el SOA suele utilizar las llamadas de servicio para integrar sistemas y acceder a datos, pues se basa en la creación de servicios que se comunican entre sí a través de interfaces estandarizadas. Esto permite que los sistemas sean más flexibles y escalables, ya que pueden comunicarse a través de interfaces estandarizadas sin depender unos de otros.
-
-4. ¿Debe el servicio integrarse al portal existente o tener su propia interfaz de usuario?
-
-
-
-5. ¿Cuáles son los argumentos a favor de cada opción?
-
-
-
-6. ¿Deberías implementar la nueva funcionalidad, el equipo de CRM?
-
-
-
 - Pregunta 2
 
 En un sistema basado en microservicios puede haber diferentes tipos de comunicación; sin embargo, debe haber un tipo de comunicación predominante. ¿Cuál escogerías? ¿Qué otros están permitidos además? ¿En qué situaciones? ¿Utilizarías la replicación de datos en un sistema basado en microservicios? ¿En qué áreas? ¿Cómo lo implementarías?
@@ -42,17 +14,6 @@ Por otro lado, la replicación de datos en un sistema basado en microservicios r
     - Utilizar herramientas como bases de datos distribuidas (como Cassandra o MongoDB) o sistemas de mensajería para implementar la replicación de datos.
     - Monitorear y probar la replicación para asegurar que los datos se repliquen correctamente y que el sistema funcione de manera eficiente.
     
-- Pregunta 3
-
-
-
-- Pregunta 4
-
-Completa las actividades 21 y 22 del curso. Muestra cada uno de los pasos seguidos.
-
-• Actividad 21:
-
-
 
 
 
